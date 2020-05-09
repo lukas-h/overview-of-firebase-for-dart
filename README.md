@@ -1,4 +1,5 @@
-# A list of all libraries that (try to) cover Firebase for Dart
+# State of Firebase for Dart
+## A list of all libraries that (try to) cover Firebase for Dart
 
 ### *Why?*
 Dart is lacking an official implementation of a firebase sdk in native Dart code.
