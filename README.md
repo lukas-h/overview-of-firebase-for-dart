@@ -4,7 +4,7 @@
 ### *Why?*
 Dart is lacking an official implementation of a firebase sdk in native Dart code.
 
-The existing wrappers around official SDKs are on the *FirebaseExtended* org on Github , which means 
+The existing wrappers around official SDKs are on the *FirebaseExtended* org on Github, which means 
 "Projects that are not officially staffed by Googlers [...]".
 
 
