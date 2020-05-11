@@ -1,4 +1,4 @@
-# State of Firebase for Dart
+# **State of Firebase for Dart** :fire::dart:
 ## A list of all libraries that (try to) cover Firebase for Dart
 
 ### *Why?*
