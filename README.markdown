@@ -19,7 +19,7 @@ Besides these packages there are also ...
 
 ## packages
 
-### FirebaseExtended/flutterfire [Github](https://github.com/FirebaseExtended/flutterfire)
+### [FirebaseExtended/flutterfire](https://github.com/FirebaseExtended/flutterfire)
 |Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
 |---|---|---|---|---|---|---|
 | [cloud_firestore](https://pub.dev/packages/cloud_firestore)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:(macOs)|||
