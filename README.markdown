@@ -22,6 +22,6 @@ Besides these packages there are also ...
 ### FirebaseExtended/flutterfire
 |Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
 |---|---|---|---|---|---|---|
-|   |:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|   |   |
+| [cloud_firestore](https://pub.dev/packages/cloud_firestore)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:negative_squared_cross_mark:|:negative_squared_cross_mark:|
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
