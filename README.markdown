@@ -17,7 +17,7 @@ Besides these packages there are also ...
 - If you'd like to contribute or help me improve this list, please open pull requests or issues.
 - If you want to discuss, please open issues. 
 
-## packages
+# Packages
 
 ### [FirebaseExtended/flutterfire](https://github.com/FirebaseExtended/flutterfire)
 |Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
