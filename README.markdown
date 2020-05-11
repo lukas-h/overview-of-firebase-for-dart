@@ -22,6 +22,18 @@ Besides these packages there are also ...
 ### FirebaseExtended/flutterfire
 |Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
 |---|---|---|---|---|---|---|
-| [cloud_firestore](https://pub.dev/packages/cloud_firestore)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:(macOs)|:negative_squared_cross_mark:|:negative_squared_cross_mark:|
-|[cloud_functions](https://pub.dev/packages/cloud_functions) (https call api)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:(macOs)|:negative_squared_cross_mark:|:negative_squared_cross_mark:|
-|   |   |   |   |   |   |   |
+| [cloud_firestore](https://pub.dev/packages/cloud_firestore)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:(macOs)|||
+|[cloud_functions](https://pub.dev/packages/cloud_functions) (https call api)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:(macOs)|||
+|[firebase_admob](https://pub.dartlang.org/packages/firebase_admob)|:white_check_mark:|:white_check_mark:|:white_check_mark:|   |   |   |
+|[firebase_analytics](https://pub.dartlang.org/packages/firebase_analytics)|:white_check_mark:|:white_check_mark:|:white_check_mark:|   |   |   |
+|[firebase_auth](https://pub.dartlang.org/packages/firebase_analytics)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:(macOs)|   |
+|[firebase_core](https://pub.dartlang.org/packages/firebase_core)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:(macOs)|   |
+|[firebase_crashlytics](https://pub.dartlang.org/packages/firebase_crashlytics)|:white_check_mark:|:white_check_mark:|:white_check_mark:|   |:white_check_mark:(macOs)|   |
+|[firebase_database](https://pub.dartlang.org/packages/firebase_database)|:white_check_mark:|:white_check_mark:|:white_check_mark:|   |   |   |
+|[firebase_dynamic_links](https://pub.dartlang.org/packages/firebase_dynamic_links)|:white_check_mark:|:white_check_mark:|:white_check_mark:|   |   |   |
+|[firebase_in_app_messaging](https://pub.dartlang.org/packages/firebase_in_app_messaging)|:white_check_mark:|:white_check_mark:|:white_check_mark:|   |   |   |
+|[firebase_messaging](https://pub.dartlang.org/packages/firebase_messaging)|:white_check_mark:|:white_check_mark:|:white_check_mark:|   |   |   |
+|[firebase_ml_vision](https://pub.dartlang.org/packages/firebase_ml_vision)|:white_check_mark:|:white_check_mark:|:white_check_mark:|   |   |   |
+|[firebase_performance](https://pub.dartlang.org/packages/firebase_performance)|:white_check_mark:|:white_check_mark:|:white_check_mark:|   |   |   |
+|[firebase_remote_config](https://pub.dartlang.org/packages/firebase_remote_config)|:white_check_mark:|:white_check_mark:|:white_check_mark:|   |   |   |
+|[firebase_storage](https://pub.dartlang.org/packages/firebase_storage)|:white_check_mark:|:white_check_mark:|:white_check_mark::white_check_mark:(macOs)|   |   |
