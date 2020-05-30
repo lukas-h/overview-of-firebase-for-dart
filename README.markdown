@@ -55,3 +55,11 @@ Besides these packages there are also ...
 |firebase_storage| | | | | |:white_check_mark:|
 
 ---
+
+### [cachapa/firedart](https://github.com/cachapa/firedart)
+|Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
+|---|---|---|---|---|---|---|
+|cloud_firestore|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+|firebase_auth|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+
+---
