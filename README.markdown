@@ -18,17 +18,21 @@ Besides these packages there are also ...
 - If you want to discuss, please open issues. 
 
 ### Types of packages
-- `direct library`: direct library to access firebase products for specific platforms
+- `interop library`: direct library to access firebase products for specific platforms
+- `native library`: direct library to access firebase products for *all platforms, Dart can run on*
 - `wrapper`: approach to create a more abstract API to access firebase products for multiple platforms by bundling 'direct libraries'
 - `ORM` (object relational mapping): libraries that help you serialize and deserialize the data between the database and your data models
 - `helper`: tools that help you work with firebase in any way
 
 # Packages
 
-### [FirebaseExtended/flutterfire](https://github.com/FirebaseExtended/flutterfire) `direct library`
+### [FirebaseExtended/flutterfire](https://github.com/FirebaseExtended/flutterfire) `interop library`
+
+> Firebase plugins for Flutter apps
+
 |Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
 |---|---|---|---|---|---|---|
-| [cloud_firestore](https://pub.dev/packages/cloud_firestore)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:(macOs)|||
+|[cloud_firestore](https://pub.dev/packages/cloud_firestore)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:(macOs)|||
 |[cloud_functions](https://pub.dev/packages/cloud_functions) (https call api)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:(macOs)|||
 |[firebase_admob](https://pub.dartlang.org/packages/firebase_admob)|:white_check_mark:|:white_check_mark:||   |   |   |
 |[firebase_analytics](https://pub.dartlang.org/packages/firebase_analytics)|:white_check_mark:|:white_check_mark:||   |   |   |
@@ -46,7 +50,10 @@ Besides these packages there are also ...
 
 ---
 
-### [FirebaseExtended/firebase-dart](https://github.com/FirebaseExtended/firebase-dart) `direct library`
+### [FirebaseExtended/firebase-dart](https://github.com/FirebaseExtended/firebase-dart) `interop library`
+
+> Dart wrapper for Firebase
+
 |Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
 |---|---|---|---|---|---|---|
 | cloud_firestore| | | | | |:white_check_mark:|
@@ -62,7 +69,10 @@ Besides these packages there are also ...
 
 ---
 
-### [cachapa/firedart](https://github.com/cachapa/firedart) `direct library`
+### [cachapa/firedart](https://github.com/cachapa/firedart) `native library`
+
+> A dart-native implementation of the Firebase Auth and Firestore SDKs
+
 |Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
 |---|---|---|---|---|---|---|
 |cloud_firestore|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
@@ -70,12 +80,24 @@ Besides these packages there are also ...
 
 ---
 
-### [abdulaziz-mohammed/firestore_entity `ORM`](https://github.com/abdulaziz-mohammed/firestore_entity) `ORM`
+### [abdulaziz-mohammed/firestore_entity](https://github.com/abdulaziz-mohammed/firestore_entity) `ORM`
+
 > A Firestore Wrapper library for binding and mapping documents to dart classes. Enjoy !
 
-It is an extension to [FirebaseExtended/flutterfire](#firebaseextendedflutterfire-direct-library).
+It is an extension to [FirebaseExtended/flutterfire](#firebaseextendedflutterfire-interop-library).
 
-platform support is given due to the dependency [FirebaseExtended/flutterfire](#firebaseextendedflutterfire-direct-library).
+platform support is given due to the dependency [FirebaseExtended/flutterfire](#firebaseextendedflutterfire-interop-library).
+
+---
+
+### [fluttercommunity/firebase_dart_sdk](https://github.com/fluttercommunity/firebase_dart_sdk) `native library`
+
+> Unofficial Firebase Flutter SDK. Maintainer: @long1eu
+
+|Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
+|---|---|---|---|---|---|---|
+|[firebase_auth](https://pub.dev/packages/cloud_firestore)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+
 
 ---
 
