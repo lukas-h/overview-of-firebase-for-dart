@@ -17,9 +17,15 @@ Besides these packages there are also ...
 - If you'd like to contribute or help me improve this list, please open pull requests or issues.
 - If you want to discuss, please open issues. 
 
+### Types of packages
+- `direct library`: direct library to access firebase products for specific platforms
+- `wrapper`: approach to create a more abstract API to access firebase products for multiple platforms by bundling 'direct libraries'
+- `ORM` (object relational mapping): libraries that help you serialize and deserialize the data between the database and your data models
+- `helper`: tools that help you work with firebase in any way
+
 # Packages
 
-### [FirebaseExtended/flutterfire](https://github.com/FirebaseExtended/flutterfire)
+### [FirebaseExtended/flutterfire](https://github.com/FirebaseExtended/flutterfire) `direct library` {#flutterfire}
 |Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
 |---|---|---|---|---|---|---|
 | [cloud_firestore](https://pub.dev/packages/cloud_firestore)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:(macOs)|||
@@ -40,7 +46,7 @@ Besides these packages there are also ...
 
 ---
 
-### [FirebaseExtended/firebase-dart](https://github.com/FirebaseExtended/firebase-dart)
+### [FirebaseExtended/firebase-dart](https://github.com/FirebaseExtended/firebase-dart) `direct library` {#firebase-dart}
 |Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
 |---|---|---|---|---|---|---|
 | cloud_firestore| | | | | |:white_check_mark:|
@@ -56,10 +62,22 @@ Besides these packages there are also ...
 
 ---
 
-### [cachapa/firedart](https://github.com/cachapa/firedart)
+### [cachapa/firedart](https://github.com/cachapa/firedart) `direct library` {#firedart}
 |Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
 |---|---|---|---|---|---|---|
 |cloud_firestore|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |firebase_auth|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+
+---
+
+### [abdulaziz-mohammed/firestore_entity `ORM`](https://github.com/abdulaziz-mohammed/firestore_entity) `ORM` {#firestore_entity}
+> A Firestore Wrapper library for binding and mapping documents to dart classes. Enjoy !
+
+It is an extension to [FirebaseExtended/flutterfire](#flutterfire).
+
+platform support is given due to the dependency [FirebaseExtended/flutterfire](#flutterfire).
+
+---
+
 
 ---
