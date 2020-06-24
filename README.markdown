@@ -25,7 +25,7 @@ Besides these packages there are also ...
 
 # Packages
 
-### [FirebaseExtended/flutterfire](https://github.com/FirebaseExtended/flutterfire) `direct library` {#flutterfire}
+### [FirebaseExtended/flutterfire](https://github.com/FirebaseExtended/flutterfire) `direct library`
 |Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
 |---|---|---|---|---|---|---|
 | [cloud_firestore](https://pub.dev/packages/cloud_firestore)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:(macOs)|||
@@ -46,7 +46,7 @@ Besides these packages there are also ...
 
 ---
 
-### [FirebaseExtended/firebase-dart](https://github.com/FirebaseExtended/firebase-dart) `direct library` {#firebase-dart}
+### [FirebaseExtended/firebase-dart](https://github.com/FirebaseExtended/firebase-dart) `direct library`
 |Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
 |---|---|---|---|---|---|---|
 | cloud_firestore| | | | | |:white_check_mark:|
@@ -62,7 +62,7 @@ Besides these packages there are also ...
 
 ---
 
-### [cachapa/firedart](https://github.com/cachapa/firedart) `direct library` {#firedart}
+### [cachapa/firedart](https://github.com/cachapa/firedart) `direct library`
 |Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
 |---|---|---|---|---|---|---|
 |cloud_firestore|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
@@ -70,12 +70,12 @@ Besides these packages there are also ...
 
 ---
 
-### [abdulaziz-mohammed/firestore_entity `ORM`](https://github.com/abdulaziz-mohammed/firestore_entity) `ORM` {#firestore_entity}
+### [abdulaziz-mohammed/firestore_entity `ORM`](https://github.com/abdulaziz-mohammed/firestore_entity) `ORM`
 > A Firestore Wrapper library for binding and mapping documents to dart classes. Enjoy !
 
-It is an extension to [FirebaseExtended/flutterfire](#flutterfire).
+It is an extension to [FirebaseExtended/flutterfire](#firebaseextendedflutterfire-direct-library).
 
-platform support is given due to the dependency [FirebaseExtended/flutterfire](#flutterfire).
+platform support is given due to the dependency [FirebaseExtended/flutterfire](#firebaseextendedflutterfire-direct-library).
 
 ---
 
