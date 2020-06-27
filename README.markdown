@@ -183,3 +183,13 @@ features:
 |Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
 |---|---|---|---|---|---|---|
 |Firestore|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:(macOs)|||
+
+---
+
+### [theyakka/cumulus](https://github.com/theyakka/cumulus) `wrapper`
+
+> Cumulus is a high-level framework that makes developing application logic on top of Firebase quick and simple.
+
+this means: more abstract way to write NodeJS cloud functions.
+
+platform support is given due to the dependency to [pulyaevskiy/firebase-admin-interop](#pulyaevskiyfirebase-admin-interop-interop-library) and [pulyaevskiy/firebase-functions-interop](#pulyaevskiyfirebase-functions-interop-interop-library).
