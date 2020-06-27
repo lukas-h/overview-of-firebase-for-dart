@@ -2,12 +2,14 @@
 ## A list of all libraries that (try to) cover Firebase for Dart
 
 ### *Why?*
+
+It's complicated...
+
 Dart is lacking an official implementation of a firebase sdk in native Dart code.
 
-The existing, wrapper libs ([flutterfire](#firebaseextendedflutterfire-interop-library), [firebase-dart](#firebaseextendedfirebase-dart-interop-library)) around the official JS, iOS and Android SDKs are inside the [*FirebaseExtended*](https://github.com/FirebaseExtended) organisation on Github, which means: 
-["Projects that are not officially staffed by Googlers ..."](https://github.com/FirebaseExtended).
+There are *kind of official* wrapper libs ([flutterfire](#firebaseextendedflutterfire-interop-library), [firebase-dart](#firebaseextendedfirebase-dart-interop-library)) around the official JS, iOS and Android SDKs are inside the [*FirebaseExtended*](https://github.com/FirebaseExtended) organisation on Github (["Projects that are not officially staffed by Googlers ..."](https://github.com/FirebaseExtended)).
 
-Besides these packages there are also ...
+Beside these packages there are also ...
 - unofficial attempts to create unified wrappers for all target platforms
 - unofficial and incomplete attempts to create a Dart native package for Firebase 
 
