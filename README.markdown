@@ -86,7 +86,7 @@ Besides these packages there are also ...
 
 It is an extension to [FirebaseExtended/flutterfire](#firebaseextendedflutterfire-interop-library).
 
-platform support is given due to the dependency [FirebaseExtended/flutterfire](#firebaseextendedflutterfire-interop-library).
+platform support is given due to the dependency to [FirebaseExtended/flutterfire](#firebaseextendedflutterfire-interop-library).
 
 ---
 
@@ -98,8 +98,12 @@ platform support is given due to the dependency [FirebaseExtended/flutterfire](#
 |---|---|---|---|---|---|---|
 |[firebase_auth](https://pub.dev/packages/cloud_firestore)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 
-
 ---
 
+### [atn832/cloud_firestore_mocks](https://github.com/atn832/cloud_firestore_mocks) `helper`
+
+> Fakes to write unit tests for Cloud Firestore. Instantiate a MockFirestoreInstance, then pass it around your project as if it were a FirestoreInstance. This fake acts like Firestore except it will only keep the state in memory. To help debug, you can use MockFirestoreInstance.dump() to see what's in the fake database. This is useful to set up the state of your database, then check that your UI behaves the way you expect.
+
+platform support is given due to the dependency to [FirebaseExtended/flutterfire](#firebaseextendedflutterfire-interop-library).
 
 ---
