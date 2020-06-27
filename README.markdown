@@ -21,7 +21,7 @@ Besides these packages there are also ...
 ### Types of packages
 - `interop library`: library to access firebase products for specific platforms, based on an interface to another programming language
 - `native library`: direct library to access firebase products, written in Dart, therefore for *all platforms, Dart can run on*
-- `wrapper`: approach to create a more abstract API to access firebase products for multiple platforms by bundling 'direct libraries'
+- `wrapper`: approach to create a more abstract API to access firebase products for multiple platforms by bundling other libraries
 - `ORM` (object relational mapping): libraries that help you serialize and deserialize the data between the database and your data models
 - `helper`: tools that help you work with firebase in any way
 
@@ -126,7 +126,7 @@ platform support is given due to the dependency to [FirebaseExtended/flutterfire
 
 |Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|cloud functions|
 |---|---|---|---|---|---|---|---|
-|firebase-functions-interop|||||||:white_check_mark:|
+|firebase-functions-interop||||||:white_check_mark:(NodeJS)|:white_check_mark:|
 
 features:
 - [x] functions
@@ -141,6 +141,26 @@ features:
 - [ ] functions.remoteConfig
 
 --- 
+
+### [pulyaevskiy/firebase-admin-interop](https://github.com/pulyaevskiy/firebase-admin-interop) `interop library`  
+
+> Write server-side Firebase applications in Dart using Node.js as a runtime.
+
+|Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|cloud functions|
+|---|---|---|---|---|---|---|---|
+|firebase-functions-interop||||||:white_check_mark:(NodeJS)||
+
+features:
+- [x] admin
+- [x] admin.auth
+- [x] admin.app
+- [x] admin.credential
+- [x] admin.database
+- [x] admin.firestore
+- [x] admin.messaging
+- [ ] admin.storage
+
+---
 
 ### [apptreesoftware/crossfire](https://github.com/apptreesoftware/crossfire) `wrapper` [Discontinued] 
 
@@ -163,4 +183,3 @@ features:
 |Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
 |---|---|---|---|---|---|---|
 |Firestore|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:(macOs)|||
-
