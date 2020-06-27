@@ -4,14 +4,14 @@
 ### *Why?*
 Dart is lacking an official implementation of a firebase sdk in native Dart code.
 
-The existing, wrappers ([flutterfire](https://github.com/FirebaseExtended/flutterfire), [firebase-dart](https://github.com/FirebaseExtended/firebase-dart)) around the official JS, iOS and Android SDKs are inside the [*FirebaseExtended*](https://github.com/FirebaseExtended) organisation on Github, which means: 
+The existing, wrapper libs ([flutterfire](#firebaseextendedflutterfire-interop-library), [firebase-dart](#firebaseextendedfirebase-dart-interop-library)) around the official JS, iOS and Android SDKs are inside the [*FirebaseExtended*](https://github.com/FirebaseExtended) organisation on Github, which means: 
 ["Projects that are not officially staffed by Googlers ..."](https://github.com/FirebaseExtended).
-
-If you want to use Firebase on *different target platforms* (Flutter, Dart for Web or VM) you have *different packages*, varying syntax or even lacking support of many Firebase features.
 
 Besides these packages there are also ...
 - unofficial attempts to create unified wrappers for all target platforms
 - unofficial and incomplete attempts to create a Dart native package for Firebase 
+
+In general: If you want to use Firebase on all the *different Dart target platforms* (Flutter, Dart for Web or VM) you have *different packages*, varying syntax or even lacking support of many Firebase features.
 
 ### This document is supposed to give an overview of Dart packages for Firebase.
 
@@ -257,3 +257,12 @@ platform support is given due to the dependency to [FirebaseExtended/flutterfire
 
 --- 
 
+### [duyduong/flutter_native_admob](https://github.com/duyduong/flutter_native_admob) `helper` `interop library`
+
+> Plugin to integrate Firebase Native Admob to Flutter application Platform supported: iOS, Android
+
+|Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
+|---|---|---|---|---|---|---|
+|Admob|:white_check_mark:|:white_check_mark:|||||
+
+### 
