@@ -119,7 +119,7 @@ platform support is given due to the dependency to [FirebaseExtended/flutterfire
 
 ---
 
-### [https://github.com/pulyaevskiy/firebase-functions-interop](https://github.com/pulyaevskiy/firebase-functions-interop) `interop library`  
+### [pulyaevskiy/firebase-functions-interop](https://github.com/pulyaevskiy/firebase-functions-interop) `interop library`  
 
 > Write Firebase Cloud functions in Dart, run in Node.js. This is an early development preview, open-source project.
 
@@ -138,3 +138,18 @@ features:
 - [x] functions.pubsub
 - [x] functions.storage
 - [ ] functions.remoteConfig
+
+--- 
+
+### [apptreesoftware/crossfire](https://github.com/apptreesoftware/crossfire)
+
+> Cross-platform APIs for Firebase.  
+>- crossfire - platform-agnostic firebase API  
+>- crossfire_flutter - flutter implementation  
+>- crossfire_web - web implementation  
+
+|Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
+|---|---|---|---|---|---|---|
+|[firebase_auth](https://pub.dev/packages/cloud_firestore)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+|[firebase_storage](https://pub.dev/packages/cloud_firestore)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+|[firebase_firestore](https://pub.dev/packages/cloud_firestore)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
