@@ -193,3 +193,20 @@ features:
 this means: more abstract way to write NodeJS cloud functions.
 
 platform support is given due to the dependency to [pulyaevskiy/firebase-admin-interop](#pulyaevskiyfirebase-admin-interop-interop-library) and [pulyaevskiy/firebase-functions-interop](#pulyaevskiyfirebase-functions-interop-interop-library).
+
+### [appsup-dart/firebase_dart](https://github.com/appsup-dart/firebase_dart) `native library`  
+
+> A pure Dart implementation of the Firebase client
+
+|Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
+|---|---|---|---|---|---|---|
+|Firebase|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+|Core|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+
+### [amrfarid140/firebase_auth_oauth](https://github.com/amrfarid140/firebase_auth_oauth) `helper`  
+
+> A Flutter plugin that makes it easy to perform OAuth sign in flows using FirebaseAuth. It also includes support for Sign in by Apple for Firebase. This plugin supports Android, iOS and Web. OAuth flows are performed by opening pop-up on top of the application to allow the user to authenticate or the native flow in the case of sign in by apple.
+
+[Auth Providers Support :link:](https://github.com/amrfarid140/firebase_auth_oauth/tree/main/firebase_auth_oauth#auth-providers-support)
+
+
