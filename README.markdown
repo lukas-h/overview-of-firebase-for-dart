@@ -306,3 +306,49 @@ platform support is given due to the dependency to [FirebaseExtended/flutterfire
 |Messaging||||||:white_check_mark:|
 
 ---
+
+### [cachapa/fireutil](https://github.com/cachapa/fireutil) `helper`
+
+> A simple CLI utility to push key-value pairs to Firestore. Useful for scripting, e.g. logging system data using crontab.
+
+platform support is given due to the dependency to [capacha/firedart](#cachapafiredart-native-library).
+
+--- 
+
+### [jarekb123/firestore_all](https://github.com/jarekb123/firestore_all) `wrapper`
+
+> Plugin that wraps Firestore from firebase and cloud_firestore packages and expose them as a single API.
+
+|Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
+|---|---|---|---|---|---|---|
+|Firestore|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:(macOs)||:white_check_mark:|
+
+---
+
+### [SwissCheese5/Dartbase-Admin-SDK](https://github.com/SwissCheese5/Dartbase-Admin-SDK) `native library`
+
+> A dart-native implementation of the Firebase Admin SDK  
+>  
+> This library is a fork of cachapa's client firebase sdk; cachapa/firedart; modified and converted to support admin only firebase features. This library also uses these files from appsup-dart/firebase_admin to enable admin authentication to firebase because it is not documented on firebase's official documentation (May 2020):  
+>- user_record.dart.
+>- token_handler.dart
+
+|Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
+|---|---|---|---|---|---|---|
+|Firebase Auth|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+|Firestore|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+|Firebase Storage|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+|Firebase Cloud Messaging|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+
+---
+
+### [kikuchy/lantern](https://github.com/kikuchy/lantern) `helper`
+
+> Firebase Cloud Firestore's data structure definition language and code generator. Lantern lights bright future of your project.  
+> ## Features  
+> ### Definition Language  
+> Have you ever been confused sharing collections / document structure in team? Or forgetting the structure by your self?  
+>  
+> No problem. Lantern is simple data structure definition language to write down your Firestore structure.  
+...  
+[more](https://github.com/kikuchy/lantern)  
