@@ -194,6 +194,8 @@ this means: more abstract way to write NodeJS cloud functions.
 
 platform support is given due to the dependency to [pulyaevskiy/firebase-admin-interop](#pulyaevskiyfirebase-admin-interop-interop-library) and [pulyaevskiy/firebase-functions-interop](#pulyaevskiyfirebase-functions-interop-interop-library).
 
+---
+
 ### [appsup-dart/firebase_dart](https://github.com/appsup-dart/firebase_dart) `native library`  
 
 > A pure Dart implementation of the Firebase client
@@ -203,10 +205,55 @@ platform support is given due to the dependency to [pulyaevskiy/firebase-admin-i
 |Firebase|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |Core|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 
-### [amrfarid140/firebase_auth_oauth](https://github.com/amrfarid140/firebase_auth_oauth) `helper`  
+---
+
+### [appsup-dart/firebase_admin](https://github.com/appsup-dart/firebase_admin) `native library`  
+
+> A pure Dart implementation of the Firebase admin sdk
+
+|Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
+|---|---|---|---|---|---|---|
+|Auth|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+
+---
+
+### [appsup-dart/firebase_rest](https://github.com/appsup-dart/firebase_rest) `native library` [Discontinued]
+
+> A Dart library for reading and writing data to a Firebase database.
+
+|Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
+|---|---|---|---|---|---|---|
+|Firebase|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+
+---
+
+### [appsup-dart/firebase_compute](https://github.com/appsup-dart/firebase_compute) `native library` [Discontinued]  
+
+> Library for doing reactive computations with firebase.
+
+|Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
+|---|---|---|---|---|---|---|
+|firebase_compute|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|
+
+---
+
+### [amrfarid140/firebase_auth_oauth](https://github.com/amrfarid140/firebase_auth_oauth) `helper` `interop library`
 
 > A Flutter plugin that makes it easy to perform OAuth sign in flows using FirebaseAuth. It also includes support for Sign in by Apple for Firebase. This plugin supports Android, iOS and Web. OAuth flows are performed by opening pop-up on top of the application to allow the user to authenticate or the native flow in the case of sign in by apple.
 
+|Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
+|---|---|---|---|---|---|---|
+|firebase_auth_oauth|:white_check_mark:|:white_check_mark:|:white_check_mark:||||
+
 [Auth Providers Support :link:](https://github.com/amrfarid140/firebase_auth_oauth/tree/main/firebase_auth_oauth#auth-providers-support)
 
+---
+
+### [lohanidamodar/flutter_firebase_helpers](https://github.com/lohanidamodar/flutter_firebase_helpers) `helper`
+
+> A package that provides various Google Firebase related services helpers. Provides helpers to perform queries on firestore, firebase auth etc.
+
+platform support is given due to the dependency to [FirebaseExtended/flutterfire](#firebaseextendedflutterfire-interop-library).
+
+--- 
 
