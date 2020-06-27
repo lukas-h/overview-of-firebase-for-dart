@@ -109,3 +109,10 @@ platform support is given due to the dependency to [FirebaseExtended/flutterfire
 platform support is given due to the dependency to [FirebaseExtended/flutterfire](#firebaseextendedflutterfire-interop-library).
 
 ---
+
+### [fluttercommunity/firestore_helpers](https://github.com/fluttercommunity/firestore_helpers) `helper`
+
+> Firestore Helpers - Firestore helper function to create dynamic and location based queries.
+
+platform support is given due to the dependency to [FirebaseExtended/flutterfire](#firebaseextendedflutterfire-interop-library).
+
