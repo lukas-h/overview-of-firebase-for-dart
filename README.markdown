@@ -112,6 +112,22 @@ platform support is given due to the dependency to [FirebaseExtended/flutterfire
 
 ---
 
+### [atn832/firebase_auth_mocks](https://github.com/atn832/firebase_auth_mocks) `helper`
+
+> Mocks for Firebase Auth. Use this package with google_sign_in_mocks to write unit tests involving Firebase Authentication.
+
+platform support is given due to the dependency to [FirebaseExtended/flutterfire](#firebaseextendedflutterfire-interop-library).
+
+---
+
+### [atn832/firebase_storage_mocks](https://github.com/atn832/firebase_storage_mocks) `helper`
+
+> Mocks for Firebase Storage. Use this package to write unit tests involving Firebase Storage.
+
+platform support is given due to the dependency to [FirebaseExtended/flutterfire](#firebaseextendedflutterfire-interop-library).
+
+---
+
 ### [fluttercommunity/firestore_helpers](https://github.com/fluttercommunity/firestore_helpers) `helper`
 
 > Firestore Helpers - Firestore helper function to create dynamic and location based queries.
@@ -265,4 +281,28 @@ platform support is given due to the dependency to [FirebaseExtended/flutterfire
 |---|---|---|---|---|---|---|
 |Admob|:white_check_mark:|:white_check_mark:|||||
 
-### 
+--- 
+
+### [jorgecoca/lumberdash](https://github.com/jorgecoca/lumberdash) `helper`
+
+*lumberdash*  
+> Do you need logs? Lumberdash is the answer! With a simple but powerful logging API, Lumberdash is the easiest way to record logs. And if that is not enough, you can extend its API and create your own custom plugins for your own logging needs.
+
+*firebase_lumberdash* plugin  
+> Plugin for lumberdash  
+>  
+> It sends your logs to Firebase Analytics.  
+
+platform support is given due to the dependency to [FirebaseExtended/flutterfire](#firebaseextendedflutterfire-interop-library).
+
+---
+
+### [GaspardMerten/Firebase-Cloud-Messaging-Interop](https://github.com/GaspardMerten/Firebase-Cloud-Messaging-Interop) `interop library`
+
+> A dart plugin to use the Firebase Cloud Messaging Api (JS). You can retrieve the user's FCM token, delete it, access the notification data, ...
+
+|Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|
+|---|---|---|---|---|---|---|
+|Messaging||||||:white_check_mark:|
+
+---
