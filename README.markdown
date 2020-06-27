@@ -4,22 +4,23 @@
 ### *Why?*
 Dart is lacking an official implementation of a firebase sdk in native Dart code.
 
-The existing, wrappers ([flutterfire](https://github.com/FirebaseExtended/flutterfire), [firebase-dart](https://github.com/FirebaseExtended/firebase-dart)) around the official JS, iOS and Android SDKs are on the [*FirebaseExtended*](https://github.com/FirebaseExtended) organisation on Github, which means: 
+The existing, wrappers ([flutterfire](https://github.com/FirebaseExtended/flutterfire), [firebase-dart](https://github.com/FirebaseExtended/firebase-dart)) around the official JS, iOS and Android SDKs are inside the [*FirebaseExtended*](https://github.com/FirebaseExtended) organisation on Github, which means: 
 ["Projects that are not officially staffed by Googlers ..."](https://github.com/FirebaseExtended).
 
-If you want to use Firebase on different target platforms (Flutter, Dart for Web or VM) you have different packages, varying syntax or even lacking support of many Firebase features.
+If you want to use Firebase on *different target platforms* (Flutter, Dart for Web or VM) you have *different packages*, varying syntax or even lacking support of many Firebase features.
 
 Besides these packages there are also ...
 - unofficial attempts to create unified wrappers for all target platforms
 - unofficial and incomplete attempts to create a Dart native package for Firebase 
 
-### This document is supposed to give an overview of packages for Firebase.
+### This document is supposed to give an overview of Dart packages for Firebase.
+
 - If you'd like to contribute or help me improve this list, please open pull requests or issues.
 - If you want to discuss, please open issues. 
 
 ### Types of packages
-- `interop library`: direct library to access firebase products for specific platforms
-- `native library`: direct library to access firebase products for *all platforms, Dart can run on*
+- `interop library`: library to access firebase products for specific platforms, based on an interface to another programming language
+- `native library`: direct library to access firebase products, written in Dart, therefore for *all platforms, Dart can run on*
 - `wrapper`: approach to create a more abstract API to access firebase products for multiple platforms by bundling 'direct libraries'
 - `ORM` (object relational mapping): libraries that help you serialize and deserialize the data between the database and your data models
 - `helper`: tools that help you work with firebase in any way
@@ -116,3 +117,24 @@ platform support is given due to the dependency to [FirebaseExtended/flutterfire
 
 platform support is given due to the dependency to [FirebaseExtended/flutterfire](#firebaseextendedflutterfire-interop-library).
 
+---
+
+### [https://github.com/pulyaevskiy/firebase-functions-interop](https://github.com/pulyaevskiy/firebase-functions-interop) `interop library`  
+
+> Write Firebase Cloud functions in Dart, run in Node.js. This is an early development preview, open-source project.
+
+|Product|Flutter iOS|Flutter Android|Flutter Web|Flutter Desktop|native (VM & Fuchsia)|dart2js|cloud functions|
+|---|---|---|---|---|---|---|---|
+|firebase-functions-interop|||||||:white_check_mark:|
+
+features:
+- [x] functions
+- [x] functions.config
+- [ ] functions.analytics
+- [x] functions.auth
+- [x] functions.firestore :fire:
+- [x] functions.database
+- [x] functions.https
+- [x] functions.pubsub
+- [x] functions.storage
+- [ ] functions.remoteConfig
