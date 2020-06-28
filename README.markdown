@@ -5,9 +5,9 @@
 
 It's complicated...
 
-Dart is lacking an official implementation of a firebase sdk in native Dart code.
+Dart has no official implementation of a firebase sdk purely written in native Dart code.
 
-There are *kind of official* wrapper libs ([flutterfire](#firebaseextendedflutterfire-interop-library), [firebase-dart](#firebaseextendedfirebase-dart-interop-library)) around the official JS, iOS and Android SDKs are inside the [*FirebaseExtended*](https://github.com/FirebaseExtended) organisation on Github (["Projects that are not officially staffed by Googlers ..."](https://github.com/FirebaseExtended)).
+There are *kind of official* wrapper libs ([flutterfire](#firebaseextendedflutterfire-interop-library), [firebase-dart](#firebaseextendedfirebase-dart-interop-library)) around the official JS, iOS and Android SDKs, which are inside the [*FirebaseExtended*](https://github.com/FirebaseExtended) organisation on Github (["Projects that are not officially staffed by Googlers ..."](https://github.com/FirebaseExtended)).
 
 Beside these packages there are also ...
 - unofficial attempts to create unified wrappers for all target platforms
@@ -16,7 +16,7 @@ Beside these packages there are also ...
 In general: If you want to use Firebase on all the *different Dart target platforms* (Flutter, Dart for Web or VM) you have *different packages*, varying syntax or even lacking support of many Firebase features.
 
 ### This document is supposed to give an overview of Dart packages for Firebase.
-
+- It is not here to criticize but to help confused developers.
 - If you'd like to contribute or help me improve this list, please open pull requests or issues.
 - If you want to discuss, please open issues. 
 
@@ -51,6 +51,7 @@ In general: If you want to use Firebase on all the *different Dart target platfo
 |Remote Config [![Pub Package](https://img.shields.io/pub/v/firebase_remote_config.svg)](https://pub.dev/packages/firebase_remote_config)|:white_check_mark:|:white_check_mark:|   |   |   |
 |Storage [![Pub Package](https://img.shields.io/pub/v/firebase_storage.svg)](https://pub.dev/packages/firebase_storage)|:white_check_mark:|:white_check_mark:||:white_check_mark:(macOs)|   |   |
 
+-> [Roadmap](https://github.com/FirebaseExtended/flutterfire/issues/2582)
 ---
 
 ### [FirebaseExtended/firebase-dart](https://github.com/FirebaseExtended/firebase-dart) `interop library`
@@ -400,3 +401,5 @@ based on [cachapa/firedart](#cachapafiredart-native-library).
 [more](https://github.com/kikuchy/lantern)  
 
 [![Pub Package](https://img.shields.io/pub/v/lantern.svg)](https://pub.dev/packages/lantern)
+
+
