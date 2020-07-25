@@ -402,4 +402,11 @@ based on [cachapa/firedart](#cachapafiredart-native-library).
 
 [![Pub Package](https://img.shields.io/pub/v/lantern.svg)](https://pub.dev/packages/lantern)
 
+---
+
+### [hukusuke1007/flamingo](https://github.com/hukusuke1007/flamingo) `ORM`
+
+> Flamingo is a firebase firestore model framework library. :baby_chick:
+
+[![Pub Package](https://img.shields.io/pub/v/flamingo.svg)](https://pub.dev/packages/flamingo)
 
